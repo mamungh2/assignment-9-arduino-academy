@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    padding: 20px;
+}
+.social-container {
+    font-size: 30px;
+}
+.fbicon {
+    color: #4968ad;
+}
+.youtubeicon {
+    color: #eb3223;
+}
+.twittericon {
+    color: #49a1eb;
+}
+.instagram {
+    color: rgb(238, 180, 223);
+}

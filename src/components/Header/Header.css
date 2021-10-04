@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    background-color: #00a651;
+    line-height: 70px;
+    margin: 0 auto;
+}
+.header-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 15px;
+    letter-spacing: 1px;
+    
+}

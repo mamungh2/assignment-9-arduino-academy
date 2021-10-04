@@ -1,0 +1,9 @@
+.course {
+    box-shadow: 0px 4px 10px gray;
+}
+.course:hover {
+    background-color: rgba(0, 182, 39, 0.082);
+}
+.icon-color {
+    color: yellow;
+}
