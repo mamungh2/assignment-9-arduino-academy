@@ -42,7 +42,7 @@ const Home = () => {
             </div>
 
             <div>
-                <h1 className="text-center mt-5">Our <span style={{ color: "#00a651" }}>Service</span></h1>
+                <h1 className="text-center mt-5">Our <span style={{ color: "#00a651" }}>Services</span></h1>
 
                 {
                     courses.slice(0, 4).map(course => <Course key={course.key} course={course}></Course>)
