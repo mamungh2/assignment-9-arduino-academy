@@ -23,7 +23,7 @@ const Home = () => {
                     <div className="col">
                         <div>
                             <h5 className="fw-bold">Arduino CNT Plotter</h5>
-                            <video width="520" controls className="rounded">
+                            <video max-width="520" controls className="rounded">
                                 <source src="./video/arduinoinvention.mp4" type="video/mp4" />
                                 Your browser does not support HTML video.
                             </video>
