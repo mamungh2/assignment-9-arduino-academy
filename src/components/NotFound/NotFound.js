@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// NotFound component
 const NotFound = () => {
     const heading404 = {
         color: "red",

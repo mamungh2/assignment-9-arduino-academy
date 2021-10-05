@@ -1,7 +1,8 @@
+/* header component style */
 .header {
     text-align: center;
     background-color: #00a651;
-    line-height: 70px;
+    line-height: 100px;
     margin: 0 auto;
 }
 .header-link{
@@ -11,5 +12,4 @@
     font-weight: 500;
     margin-right: 15px;
     letter-spacing: 1px;
-    
 }

@@ -4,8 +4,11 @@ import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Course from '../Course/Course';
 
+// Home component
 const Home = () => {
+    // keep data as variable in state
     const [courses, setCourses] = useState([]);
+    // fetch data from local database
     useEffect(() => {
         fetch('./arduino-db.JSON')
             .then(response => response.json())
@@ -13,6 +16,7 @@ const Home = () => {
     }, []);
     return (
         <div className="container">
+            {/* header section */}
             <div>
                 <h1 className="mt-5 text-center">Learn to write code that controls <span style={{ color: "#00b628" }}>REAL</span>  things!</h1>
                 <div className="row g-5 p-5 align-items-center">
@@ -26,6 +30,7 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* contest section */}
             <div className="row mb-5 align-items-center">
                 <h1 className="text-center mb-5"><span style={{ color: "#00b628" }}>One</span> Million Dollar Contest</h1>
                 <div className="col-md-7">
@@ -41,9 +46,10 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* services section */}
             <div>
                 <h1 className="text-center mt-5">Our <span style={{ color: "#00a651" }}>Services</span></h1>
-
+                {/* send some data to Course component through loop*/}
                 {
                     courses.slice(0, 4).map(course => <Course key={course.key} course={course}></Course>)
                 }

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Details component
 const Details = () => {
     return (
         <div className="container mt-5">
@@ -25,15 +26,6 @@ const Details = () => {
                     <li>The necessary skills and knowledge to design and build your own Arduino projects from scratch</li>
                     <li>How to combine two Arduino sketches into one</li>
                 </ul>
-
-
-
-
-
-
-
-
-
             </div>
         </div>
     );

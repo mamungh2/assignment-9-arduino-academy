@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
+// Contact component
 const Contact = () => {
     return (
         <div className="container">
@@ -44,13 +45,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
         </div>
-
     );
 };
 

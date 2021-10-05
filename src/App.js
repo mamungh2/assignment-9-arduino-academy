@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import Cart from './components/Cart/Cart';
 import Details from './components/Details/Details';
 
+// App component with all route
 function App() {
   return (
     <div className="App">

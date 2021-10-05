@@ -6,8 +6,11 @@ import { NavLink } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import Rating from 'react-rating';
 
+// Course component
 const Course = (props) => {
+    // destructure data from props
     const { img, coursename, trainer, duration, star, price } = props.course;
+
     return (
         <div className="row align-items-center mb-4 mt-4 border rounded p-3 course">
             <div className="col-md-4">
@@ -19,6 +22,7 @@ const Course = (props) => {
                 <p className="mb-0">Duration: {duration}</p>
                 <div className="d-flex align-items-center">
                     <p className="mb-0">Rating: </p>
+                    {/* insert rating icon */}
                     <div className="mt-2">
                         {
                             <Rating
@@ -28,6 +32,8 @@ const Course = (props) => {
                     </div>
                 </div>
                 <p className="mb-0">Price: ${price}</p>
+
+                {/* Add to Cart and Details button */}
                 <NavLink to="/cart" className="me-4">
                     <Button className="px-4 px-1 fs-5 mb-2 bg-success" ><FontAwesomeIcon icon={faShoppingCart} className="me-2" />Add to Cart</Button>
                 </NavLink>

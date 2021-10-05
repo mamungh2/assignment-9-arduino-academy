@@ -5,6 +5,8 @@
 .social-container {
     font-size: 30px;
 }
+
+/* social icons style */
 .fbicon {
     color: #4968ad;
 }
@@ -14,6 +16,6 @@
 .twittericon {
     color: #49a1eb;
 }
-.instagram {
+.instagramicon {
     color: rgb(238, 180, 223);
 }

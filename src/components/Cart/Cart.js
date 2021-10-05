@@ -1,9 +1,10 @@
 import React from 'react';
 
+// Cart component
 const Cart = () => {
     return (
         <div>
-            <h1>Thanks for buying</h1>
+            <h1>All Selected items are here that you can checkout</h1>
         </div>
     );
 };
