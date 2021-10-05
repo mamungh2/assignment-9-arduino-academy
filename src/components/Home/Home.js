@@ -21,7 +21,14 @@ const Home = () => {
                 <h1 className="mt-5 text-center">Learn to write code that controls <span style={{ color: "#00b628" }}>REAL</span>  things!</h1>
                 <div className="row g-5 p-5 align-items-center">
                     <div className="col">
-                        <img className="img-fluid rounded" src="https://mamundb.netlify.app/images/headerpic.png" alt="" />
+                        <div>
+                            <h5 className="fw-bold">Arduino CNT Plotter</h5>
+                            <video width="520" controls className="rounded">
+                                <source src="./video/arduinoinvention.mp4" type="video/mp4" />
+                                Your browser does not support HTML video.
+                            </video>
+                            <h5 className="fs-5 mt-1">A great invention of me and my little uncle Tasinul Islam</h5>
+                        </div>
                     </div>
                     <div className="col text-start fs-5">
                         <h4>Why are you here ?</h4>
