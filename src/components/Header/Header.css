@@ -1,9 +1,6 @@
 /* header component style */
 .header {
-    text-align: center;
     background-color: #00a651;
-    line-height: 100px;
-    margin: 0 auto;
 }
 .header-link{
     color: white;

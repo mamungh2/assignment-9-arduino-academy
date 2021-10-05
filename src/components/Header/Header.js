@@ -13,7 +13,10 @@ const Header = () => {
     }
     return (
         <div style={{ backgroundColor: "#00a651" }}>
-            <div className="container header">
+            <div className="container header d-flex justify-content-between align-items-center py-3">
+                <div>
+                    <img src="./images/academiclogo.png" alt="" />
+                </div>
                 {/* main navigation links of header*/}
                 <nav className="d-inline">
                     <NavLink className="header-link" activeStyle={activeStyle} to="/home">Home</NavLink>
@@ -22,9 +25,9 @@ const Header = () => {
                     <NavLink className="header-link" activeStyle={activeStyle} to="/contact">Contact</NavLink>
                 </nav>
                 {/* search bar */}
-                <div className="d-inline ">
-                    <input className="form-control mb-2 ms-4 fs-5 w-25 d-inline" type="text" placeholder="Search here..." />
-                    <Button className="px-4 px-1 fs-5 mb-2 rounded" >Search</Button><br />
+                <div className="input-group w-25">
+                    <input className="form-control fs-5" type="text" placeholder="Search here..." />
+                    <Button className="px-4 px-1 fs-5 rounded" >Search</Button><br />
                 </div>
             </div>
         </div>
